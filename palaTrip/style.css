@@ -1,0 +1,51 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+
+#cegoTabela {
+    background-image: url('./img/cego.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 2px;
+}
+
+#cegoTabela:hover {
+    transition: 0.5s;
+    filter: brightness(15%);
+}
+
+#marcoTabela {
+    background-image: url('./img/marco.jpeg');
+    background-position: center;
+    background-size: cover;
+    margin: 2px;
+}
+
+#marcoTabela:hover {
+    transition: 0.5s;
+    filter: brightness(15%);
+}
+
+#tinegoTabela {
+    background-image: url('./img/tinego.png');
+    background-position: center;
+    background-size: cover;
+    margin: 2px;
+}
+
+#tinegoTabela:hover {
+    transition: 0.5s;
+    filter: brightness(15%);
+}
+
+table {
+    display: table;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td img {
+    height: 250px;
+    width: 250px;
+    margin: 5px;
+    object-fit: cover;
+}
